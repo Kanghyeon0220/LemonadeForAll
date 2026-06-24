@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
     donate_money_button: { ko: '문의하기', en: 'Contact Us' },
     donate_goods_button: { ko: '문의하기', en: 'Contact Us' },
     donate_volunteer_button: { ko: '신청하기', en: 'Apply' },
-    donate_account_info: { ko: '계좌번호는 이메일로 문의해주세요<br>lemonadeforall@gmail.com', en: 'Please inquire about the account number via email<br>lemonadeforall@gmail.com' },
+    donate_account_info: { ko: '계좌번호는 이메일로 문의해주세요<br>lfageneralx@gmail.com', en: 'Please inquire about the account number via email<br>lfageneralx@gmail.com' },
     donate_usage: { ko: '후원금 사용 내역', en: 'Donation Usage' },
     donate_usage_desc: { ko: '모든 후원금은 투명하게 공개되며, 85%는 프로그램 직접 지원, 10%는 운영비, 5%는 교육 및 캠페인에 사용됩니다.', en: 'All donations are disclosed transparently: 85% program support, 10% operations, 5% education and campaigns.' },
     donate_report: { ko: '정기적으로 재정 보고서를 업데이트하여 후원자 여러분께 투명한 정보를 제공합니다.', en: 'We regularly update financial reports to provide transparent information to our donors.' },
