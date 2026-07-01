@@ -58,15 +58,17 @@
         <h2 id="org-info-title" data-i18n="trans_establishment">설립 정보</h2>
         <div class="trans-grid">
           <article class="trans-card">
-            <h3>설립일</h3>
+            <h3 data-i18n="trans_established_label">설립일</h3>
             <p data-i18n="trans_establish_date">2026.02</p>
           </article>
+
           <article class="trans-card">
-            <h3>등록번호</h3>
+            <h3 data-i18n="trans_registration_number">등록번호</h3>
             <p>6-45-7309-701</p>
           </article>
+
           <article class="trans-card">
-            <h3>법인형태</h3>
+            <h3 data-i18n="trans_org_type_label">법인형태</h3>
             <p data-i18n="trans_org_type">비영리 임의단체</p>
           </article>
         </div>
@@ -82,55 +84,59 @@
             href="https://docs.google.com/spreadsheets/d/1EOwEVk2uf5fT0J5vPQvOWOQCWxLlNx8uku9OjdSmKRQ/edit?gid=0#gid=0"
             target="_blank"
             rel="noopener noreferrer"
-            class="sheet-link">
+            class="sheet-link"
+            data-i18n="finance_sheet_link">
             재정 현황 스프레드시트 바로가기
           </a>
         </p>
 
         <div class="trans-grid">
           <article class="trans-card">
-            <div class="trans-num" data-i18n="trans_total">50만원</div>
-            <h3>총 기부금</h3>
+            <div class="trans-num" data-i18n="trans_total_value">약 50만원</div>
+            <h3 data-i18n="trans_total_label">총 기부금</h3>
           </article>
+
           <article class="trans-card">
-            <div class="trans-num">42만 5천원</div>
-            <h3 data-i18n="trans_top">프로그램 직접 지원</h3>
+            <div class="trans-num" data-i18n="trans_direct_value">42만 5천원</div>
+            <h3 data-i18n="trans_direct_label">프로그램 직접 지원</h3>
           </article>
+
           <article class="trans-card">
-            <div class="trans-num" data-i18n="trans_ops">5만원</div>
-            <h3>운영비</h3>
+            <div class="trans-num" data-i18n="trans_ops_value">5만원</div>
+            <h3 data-i18n="trans_ops_label">운영비</h3>
           </article>
+
           <article class="trans-card">
-            <div class="trans-num" data-i18n="trans_edu">2만 5천원</div>
-            <h3>교육 및 캠페인</h3>
+            <div class="trans-num" data-i18n="trans_edu_value">2만 5천원</div>
+            <h3 data-i18n="trans_edu_label">교육 및 캠페인</h3>
           </article>
         </div>
 
         <div class="table-wrap">
           <table class="finance-table">
-            <caption>기부금 사용 현황</caption>
+            <caption data-i18n="finance_table_caption">기부금 사용 현황</caption>
             <thead>
               <tr>
-                <th scope="col">항목</th>
-                <th scope="col">금액</th>
+                <th scope="col" data-i18n="finance_col_item">항목</th>
+                <th scope="col" data-i18n="finance_col_amount">금액</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th scope="row">총 기부금</th>
-                <td>500,000원</td>
+                <th scope="row" data-i18n="trans_total_label">총 기부금</th>
+                <td data-i18n="trans_total_table_value">500,000원</td>
               </tr>
               <tr>
-                <th scope="row">프로그램 직접 지원</th>
-                <td>425,000원</td>
+                <th scope="row" data-i18n="trans_direct_label">프로그램 직접 지원</th>
+                <td data-i18n="trans_direct_table_value">425,000원</td>
               </tr>
               <tr>
-                <th scope="row">운영비</th>
-                <td>50,000원</td>
+                <th scope="row" data-i18n="trans_ops_label">운영비</th>
+                <td data-i18n="trans_ops_table_value">50,000원</td>
               </tr>
               <tr>
-                <th scope="row">교육 및 캠페인</th>
-                <td>25,000원</td>
+                <th scope="row" data-i18n="trans_edu_label">교육 및 캠페인</th>
+                <td data-i18n="trans_edu_table_value">25,000원</td>
               </tr>
             </tbody>
           </table>
@@ -148,8 +154,8 @@
 
         <h2 data-i18n="trans_recent_activities">최근 활동</h2>
         <ul class="activity-list">
-          <li><time datetime="2026-03">2026.03</time> - 캄보디아 프놈펜 지역 고아원에 의류 및 보건 물품 기부</li>
-          <li><time datetime="2026-02">2026.02</time> - Lemonade For All 공식 설립</li>
+          <li><time datetime="2026-03">2026.03</time> <span data-i18n="trans_activity_1">캄보디아 프놈펜 지역 고아원에 의류 및 보건 물품 기부</span></li>
+          <li><time datetime="2026-02">2026.02</time> <span data-i18n="trans_activity_2">Lemonade For All 공식 설립</span></li>
         </ul>
 
         <h2 data-i18n="trans_partner">협력 단체</h2>
@@ -192,6 +198,7 @@
       const isOpen = hamburger.getAttribute('aria-expanded') === 'true';
       hamburger.setAttribute('aria-expanded', String(!isOpen));
       mobileMenu.hidden = isOpen;
+      mobileMenu.classList.toggle('active', !isOpen);
     });
   </script>
 </body>
