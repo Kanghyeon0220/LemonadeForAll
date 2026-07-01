@@ -1,4 +1,3 @@
-// Language switcher using a translation dictionary and localStorage
 document.addEventListener('DOMContentLoaded', () => {
   const translations = {
     navAbout: { ko: '단체 소개', en: 'About Us' },
@@ -7,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     navNews: { ko: '활동 소식', en: 'News' },
     navDonate: { ko: '후원하기', en: 'Donate' },
     heroTag: { ko: '청소년 주도 비영리 단체', en: 'Youth-Led Non-Profit Organization' },
-    heroTitle: { ko: '상큼한 <span style="color: #FFD93D">희망</span>을 나눕니다', en: 'Sharing Fresh <span style="color: #FFD93D">Hope</span>' },
+    heroTitle: { ko: '상큼한 <span class="highlight">희망</span>을 나눕니다', en: 'Sharing Fresh <span class="highlight">Hope</span>' },
     heroDesc: { ko: '청소년이 주도하는 투명하고 책임 있는 나눔.<br>레모네이드 포 올과 함께하세요.', en: 'Transparent and responsible giving led by youth.<br>Join us at Lemonade For All.' },
     heroDonate: { ko: '후원하기', en: 'Donate' },
     heroLearn: { ko: '더 알아보기', en: 'Learn More' },
@@ -28,7 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
     footerDesc: { ko: '청소년이 만드는 투명한 나눔', en: 'Transparent giving led by youth' },
     statusActive: { ko: '활동 중', en: 'Active' },
 
-    // Project detail keys
     cambodia_page_title: { ko: 'Lemonade For Cambodia', en: 'Lemonade For Cambodia' },
     cambodia_page_sub: { ko: '캄보디아 취약계층 아동·청소년에게 따뜻한 나눔을 전합니다', en: 'Bringing warm support to vulnerable children and youth in Cambodia' },
     cambodia_overview: { ko: '프로젝트 개요', en: 'Project Overview' },
@@ -44,7 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
     cambodia_impact_desc: { ko: '취약계층 아동들의 기본적인 생활 환경을 개선하고, 건강하고 안전한 성장을 지원합니다. 장기적으로 교육 기회 확대와 자립 기반 마련에 기여하고자 합니다.', en: 'Improve basic living conditions for vulnerable children, support healthy and safe growth, and contribute to expanded educational opportunities and self-reliance in the long term.' },
     donate_project_btn: { ko: '이 프로젝트 후원하기', en: 'Support this project' },
 
-    // Campaign page keys
     campaign_page_title: { ko: '기부 인식 캠페인', en: 'Donation Awareness Campaign' },
     campaign_page_sub: { ko: '청소년이 직접 만들어가는 투명한 기부 문화', en: 'Youth-led transparent donation culture' },
     campaign_overview: { ko: '프로젝트 개요', en: 'Project Overview' },
@@ -53,12 +50,11 @@ document.addEventListener('DOMContentLoaded', () => {
     campaign_item_1: { ko: '학교 기부 교육 프로그램 진행', en: 'School donation education programs' },
     campaign_item_2: { ko: '지역사회 봉사 활동 조직', en: 'Organize community volunteer activities' },
     campaign_item_3: { ko: '국제사회 현안 저널 및 콘텐츠 제작', en: 'Produce journals and content on international issues' },
-    campaign_item_4: { ko: '청소년 나눔 문화 확산 캐페인', en: 'Campaign to spread youth sharing culture' },
+    campaign_item_4: { ko: '청소년 나눔 문화 확산 캠페인', en: 'Campaign to spread youth sharing culture' },
     campaign_impact: { ko: '기대 효과', en: 'Expected Impact' },
     campaign_impact_desc: { ko: '청소년들이 기부와 나눔의 가치를 이해하고 실천하는 계기를 마련합니다. 투명한 기부 문화를 확산하여 사회 전반의 나눔 의식을 높이는 것을 목표로 합니다.', en: 'It provides opportunities for youth to understand and practice the value of giving, aiming to spread a transparent donation culture and raise awareness across society.' },
     campaign_join_btn: { ko: '함께 참여하기', en: 'Join Us' },
 
-    // Donate page keys
     donate_page_title: { ko: '후원하기', en: 'Donate' },
     donate_page_sub: { ko: '여러분의 따뜻한 마음이 캄보디아 아이들에게 큰 희망이 됩니다', en: 'Your warm support brings great hope to children in Cambodia' },
     donate_money: { ko: '금전 후원', en: 'Monetary Donation' },
@@ -74,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
     donate_usage: { ko: '후원금 사용 내역', en: 'Donation Usage' },
     donate_usage_desc: { ko: '모든 후원금은 투명하게 공개되며, 85%는 프로그램 직접 지원, 10%는 운영비, 5%는 교육 및 캠페인에 사용됩니다.', en: 'All donations are disclosed transparently: 85% program support, 10% operations, 5% education and campaigns.' },
     donate_report: { ko: '정기적으로 재정 보고서를 업데이트하여 후원자 여러분께 투명한 정보를 제공합니다.', en: 'We regularly update financial reports to provide transparent information to our donors.' },
-    // About page
+
     about_title: { ko: '단체 소개', en: 'About Us' },
     about_sub: { ko: '레모네이드 포 올은 세상을 바꾸는 작은 나눔을 실천하는 청소년 주도 비영리 단체입니다', en: 'Lemonade For All is a youth-led non-profit practicing small acts of giving that change the world.' },
     about_start: { ko: '우리의 시작', en: 'Our Beginning' },
@@ -86,26 +82,24 @@ document.addEventListener('DOMContentLoaded', () => {
     about_values: { ko: '핵심 가치', en: 'Core Values' },
     about_values_desc: { ko: '태화복지재단과의 협력을 통해 신뢰 있는 나눔을 실천합니다. 전문 단체와의 파트너십을 통해 기부금이 효과적으로 사용될 수 있도록 합니다.', en: 'Act with trusted partners like Taehwa Welfare Foundation to ensure donations are used effectively.' },
 
-    // Projects page
     projects_title: { ko: '프로젝트', en: 'Projects' },
     projects_sub: { ko: '레모네이드 포 올이 진행하는 다양한 프로젝트를 소개합니다', en: 'Explore the various projects run by Lemonade For All' },
     projects_cambodia_desc: { ko: '캄보디아 취약계층 아동·청소년 가정에 의류, 보건 물품 등 생활 필수품을 지원합니다. 태화복지재단과 협력하여 현지에 직접 전달합니다.', en: 'We provide essential items such as clothing and health supplies to vulnerable children and youth households in Cambodia, delivered in cooperation with Taehwa Welfare Foundation.' },
     projects_campaign_desc: { ko: '학교 및 지역사회에서 공익 활동 교육과 기부 참여 캠페인을 진행합니다. 국제사회 현안에 대한 인식을 높입니다.', en: 'Conduct public service education and donation participation campaigns in schools and communities to raise awareness of global issues.' },
 
-    // Transparency page
     transparency_title: { ko: '투명성 보고', en: 'Transparency Report' },
     transparency_sub: { ko: '모든 기부금과 물품의 흐름을 투명하게 공개합니다', en: 'We disclose all donation and goods flows transparently' },
     trans_program: { ko: '프로그램 직접 지원', en: 'Program direct support' },
-      trans_total: { ko: '약 50만원', en: 'Approx. 500K KRW' },
-  trans_top: { ko: '프로그램 직접 지원 42만 5천원', en: 'Direct support 425K KRW' },
-    trans_edu: { ko: '2만 5천원', en: '25K KRW' },    trans_fin_principles: { ko: '재정 원칙', en: 'Financial Principles' },
+    trans_total: { ko: '약 50만원', en: 'Approx. 500K KRW' },
+    trans_top: { ko: '프로그램 직접 지원 42만 5천원', en: 'Direct support 425K KRW' },
+    trans_edu: { ko: '2만 5천원', en: '25K KRW' },
+    trans_fin_principles: { ko: '재정 원칙', en: 'Financial Principles' },
     trans_fin_principles_desc: { ko: '레모네이드 포 올은 투명한 재정 운영을 최우선 가치로 삼고 있습니다. 모든 후원금과 물품의 입금 및 지출 내역을 정기적으로 공개합니다.', en: 'Lemonade For All prioritizes transparent financial management and regularly publishes all donation and goods income and expenditure.' },
     trans_report_period: { ko: '보고 주기', en: 'Reporting Period' },
     trans_report_period_desc: { ko: '매 분기마다 재정 보고서를 작성하여 웹사이트에 공개하며, 모든 후원자에게 이메일로 전달합니다. 주요 프로젝트 진행 상황과 기부금 사용 내역을 상세히 안내해드립니다.', en: 'We publish quarterly financial reports on the website and send them to donors by email, detailing project progress and donation usage.' },
     trans_partner: { ko: '파트너 협력', en: 'Partner Collaboration' },
     trans_partner_desc: { ko: '태화복지재단과의 공식 협력을 통해 모든 물품이 안전하게 캄보디아 현지에 전달되며, 그 과정을 사진과 보고서로 기록합니다.', en: 'Through official cooperation with Taehwa Welfare Foundation, all items are delivered safely to Cambodia and documented with photos and reports.' },
 
-    // News page
     news_title: { ko: '활동 소식', en: 'News' },
     news_sub: { ko: '레모네이드 포 올의 최근 소식과 활동 내용을 확인하세요', en: 'Check out the latest news and activities from Lemonade For All' },
     news1_title: { ko: '캄보디아 1차 물품 지원 완료', en: 'First round of supplies delivered to Cambodia' },
@@ -114,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
     news2_desc: { ko: '포항 지역 학교에서 공익 활동 교육 캠페인을 진행하며 청소년 나눔 문화 확산에 기여했습니다. 200여 명의 학생들이 참여했습니다.', en: 'A public service education campaign was held at a Pohang school, contributing to the spread of youth giving culture with about 200 students participating.' },
     news3_title: { ko: '레모네이드 포 올 공식 창립', en: 'Lemonade For All officially founded' },
     news3_desc: { ko: '청소년 주도의 비영리 단체 레모네이드 포 올이 공식 창립되었습니다. 함께해주셔서 감사합니다.', en: 'The youth-led nonprofit Lemonade For All has been officially founded. Thank you for joining us.' },
-    // Document titles
+
     index_doc: { ko: 'Lemonade For All | 청소년이 만드는 투명한 나눔', en: 'Lemonade For All | Youth-Led Transparent Giving' },
     about_doc: { ko: '단체 소개 | Lemonade For All', en: 'About | Lemonade For All' },
     projects_doc: { ko: '프로젝트 | Lemonade For All', en: 'Projects | Lemonade For All' },
@@ -122,42 +116,63 @@ document.addEventListener('DOMContentLoaded', () => {
     transparency_doc: { ko: '투명성 보고 | Lemonade For All', en: 'Transparency Report | Lemonade For All' },
     news_doc: { ko: '활동 소식 | Lemonade For All', en: 'News | Lemonade For All' },
     cambodia_doc: { ko: 'Lemonade For Cambodia | Lemonade For All', en: 'Lemonade For Cambodia | Lemonade For All' },
-    campaign_doc: { ko: '기부 인식 캠페인 | Lemonade For All', en: 'Donation Awareness Campaign | Lemonade For All' },
+    campaign_doc: { ko: '기부 인식 캠페인 | Lemonade For All', en: 'Donation Awareness Campaign | Lemonade For All' }
   };
 
-  const getStoredLang = () => localStorage.getItem('siteLang') || 'ko';
-  let currentLang = getStoredLang();
+  const htmlKeys = new Set(['heroTitle', 'heroDesc', 'donate_account_info']);
+  let currentLang = 'ko';
+
+  function safeGetStoredLang() {
+    try {
+      return localStorage.getItem('siteLang') || 'ko';
+    } catch (error) {
+      return 'ko';
+    }
+  }
+
+  function safeSetStoredLang(lang) {
+    try {
+      localStorage.setItem('siteLang', lang);
+    } catch (error) {
+      return;
+    }
+  }
+
+  function updateLangButtons() {
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      const nextLabel = currentLang === 'ko' ? 'Switch to English' : '한국어로 전환';
+      btn.textContent = currentLang === 'ko' ? 'ENG' : '한국어';
+      btn.setAttribute('aria-label', nextLabel);
+      btn.setAttribute('aria-pressed', currentLang === 'en' ? 'true' : 'false');
+      btn.setAttribute('type', 'button');
+    });
+  }
 
   function applyTranslations() {
     document.querySelectorAll('[data-i18n]').forEach(el => {
       const key = el.getAttribute('data-i18n');
-      if (!key) return;
       const entry = translations[key];
-      if (!entry) return;
-      const text = entry[currentLang];
-      if (text.includes('<') && text.includes('>')) el.innerHTML = text; else el.textContent = text;
+      if (!entry || !entry[currentLang]) return;
+
+      if (htmlKeys.has(key)) {
+        el.innerHTML = entry[currentLang];
+      } else {
+        el.textContent = entry[currentLang];
+      }
     });
 
-    // Update any elements that have explicit page keys
-    document.documentElement.lang = currentLang === 'ko' ? 'ko' : 'en';
-
-    // Update all language buttons text
-    document.querySelectorAll('.lang-btn').forEach(btn => {
-      btn.textContent = currentLang === 'ko' ? 'ENG' : '한국어';
-    });
+    document.documentElement.lang = currentLang;
+    updateLangButtons();
   }
 
-  // Toggle language when any .lang-btn is clicked
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       currentLang = currentLang === 'ko' ? 'en' : 'ko';
-      localStorage.setItem('siteLang', currentLang);
+      safeSetStoredLang(currentLang);
       applyTranslations();
     });
   });
 
-  // Initial apply
+  currentLang = safeGetStoredLang();
   applyTranslations();
 });
-
-console.log('Lang.js loaded');
