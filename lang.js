@@ -126,21 +126,14 @@ document.addEventListener('DOMContentLoaded', () => {
     trans_edu_table_value: { ko: '25,000원', en: 'KRW 25,000' },
 
     trans_fin_principles: { ko: '재정 원칙', en: 'Financial Principles' },
-    trans_fin_principles_desc: { ko: '레모네이드 포 올은 투명한 재정 운영을 최우선 가치로 삼고 있습니다. 모든 후원금과 물품의 입금 및 지출 내역을 정기적으로 공개합니다.', en: 'Lemonade For All treats transparent financial management as a core value. We regularly disclose the receipt and use of donations and goods.' },
+    trans_fin_principles_desc: { ko: '레모네이드 포 올은 모든 후원금을 투명하게 관리합니다. 정관에 따라 모든 수입과 지출을 정확하게 기록하고, 분기별 보고서를 통해 후원자들에게 공개합니다.', en: 'Lemonade For All manages all donations transparently. We keep accurate records of all income and spending and share quarterly reports with our supporters.' },
     trans_report_period: { ko: '보고 주기', en: 'Reporting Schedule' },
-    trans_report_period_desc: { ko: '매 분기마다 재정 보고서를 작성하여 웹사이트에 공개하며, 모든 후원자에게 이메일로 전달합니다. 주요 프로젝트 진행 상황과 기부금 사용 내역을 상세히 안내해드립니다.', en: 'We publish financial reports every quarter on our website and share updates with donors by email, including project progress and donation usage.' },
+    trans_report_period_desc: { ko: '매 분기마다 재정 보고서를 작성하여 웹사이트에 공개하며, 주요 후원 내역과 프로젝트 진행 상황을 후원자에게 안내합니다. 주요 프로젝트 완료 시에는 별도의 결과 보고서를 발행합니다.', en: 'We publish financial reports every quarter on our website and share major updates on donations and project progress with supporters. We also issue separate reports when major projects are completed.' },
     trans_recent_activities: { ko: '최근 활동', en: 'Recent Activities' },
+    trans_activity_1: { ko: '캄보디아 프놈펜 지역 고아원에 의류 및 보건 물품 기부', en: 'Donated clothing and health supplies to an orphanage in Phnom Penh, Cambodia' },
+    trans_activity_2: { ko: 'Lemonade For All 공식 설립', en: 'Lemonade For All officially founded' },
     trans_partner: { ko: '협력 단체', en: 'Partner Organization' },
-    trans_partner_desc: { ko: '태화복지재단과의 공식 협력을 통해 모든 물품이 안전하게 캄보디아 현지에 전달되며, 그 과정을 사진과 보고서로 기록합니다.', en: 'Through official cooperation with Taehwa Welfare Foundation, all items are delivered safely to Cambodia and documented with photos and reports.' },
-
-    trans_activity_1: {
-      ko: '캄보디아 프놈펜 지역 고아원에 의류 및 보건 물품 기부',
-      en: 'Donated clothing and health supplies to an orphanage in Phnom Penh, Cambodia'
-    },
-    trans_activity_2: {
-      ko: 'Lemonade For All 공식 설립',
-      en: 'Lemonade For All officially founded'
-    },
+    trans_partner_desc: { ko: '태화복지재단과의 협력을 통해 물품 전달 과정을 기록하고, 현장 전달 내역을 투명하게 공유합니다.', en: 'In partnership with Taehwa Welfare Foundation, we document the delivery process and share field updates transparently.' },
 
     news_title: { ko: '활동 소식', en: 'News' },
     news_sub: { ko: '레모네이드 포 올의 최근 소식과 활동 내용을 확인하세요', en: 'See the latest updates and activities from Lemonade For All' },
