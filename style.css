@@ -241,26 +241,33 @@ section {
 }
 
 .section-inner h2, .page-header h1 {
-  font-size: 2.5rem;
-  font-weight: 800;
-  margin-bottom: 1.5rem;
-  .page-header {
-    background: var(--yellow);
-    text-align: center;
-    padding: 8rem 5% 6rem;
+      font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    color: var(--dark);
 }
 
-  color: var(--dark);
+.page-header {
+    background: linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%);
+    padding: 5rem 8% 3rem;
+    text-align: center;
+}
+
+.page-header h1 {
+    margin-bottom: 1rem;
+}
+
+.page-header p {
+    margin: 0 auto;
 }
 
 .section-inner > p, .page-header p {
-  font-size: 1.1rem;
-  color: var(--text-muted);
-  max-width: 700px;
-  margin-bottom: 3rem;
-  line-height: 1.7;
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    max-width: 700px;
+    margin-bottom: 3rem;
+    line-height: 1.7;
 }
-
 /* PROJECT GRID */
 .project-grid {
   display: grid;
