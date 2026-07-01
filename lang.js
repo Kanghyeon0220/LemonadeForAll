@@ -95,14 +95,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
     transparency_title: { ko: '투명성 보고', en: 'Transparency Report' },
     transparency_sub: { ko: '모든 기부금과 물품의 흐름을 투명하게 공개합니다', en: 'We openly share how donations and goods are received and used' },
+
     trans_establishment: { ko: '설립 정보', en: 'Organization Details' },
+    trans_established_label: { ko: '설립일', en: 'Date Established' },
     trans_establish_date: { ko: '2026.02', en: 'February 2026' },
+    trans_registration_number: { ko: '등록번호', en: 'Registration Number' },
+    trans_org_type_label: { ko: '법인형태', en: 'Organization Type' },
     trans_org_type: { ko: '비영리 임의단체', en: 'Nonprofit Voluntary Organization' },
+
     trans_financial: { ko: '재정 투명성', en: 'Financial Transparency' },
-    trans_total: { ko: '약 50만원', en: 'About KRW 500,000' },
-    trans_top: { ko: '프로그램 직접 지원 42만 5천원', en: 'Direct program support: KRW 425,000' },
-    trans_ops: { ko: '5만원', en: 'KRW 50,000' },
-    trans_edu: { ko: '2만 5천원', en: 'KRW 25,000' },
+    finance_sheet_link: { ko: '재정 현황 스프레드시트 바로가기', en: 'Open Financial Spreadsheet' },
+
+    trans_total_label: { ko: '총 기부금', en: 'Total Donations' },
+    trans_direct_label: { ko: '프로그램 직접 지원', en: 'Direct Program Support' },
+    trans_ops_label: { ko: '운영비', en: 'Operating Costs' },
+    trans_edu_label: { ko: '교육 및 캠페인', en: 'Education and Campaigns' },
+
+    trans_total_value: { ko: '약 50만원', en: 'About KRW 500,000' },
+    trans_direct_value: { ko: '42만 5천원', en: 'KRW 425,000' },
+    trans_ops_value: { ko: '5만원', en: 'KRW 50,000' },
+    trans_edu_value: { ko: '2만 5천원', en: 'KRW 25,000' },
+
+    finance_table_caption: { ko: '기부금 사용 현황', en: 'Donation Use Overview' },
+    finance_col_item: { ko: '항목', en: 'Category' },
+    finance_col_amount: { ko: '금액', en: 'Amount' },
+
+    trans_total_table_value: { ko: '500,000원', en: 'KRW 500,000' },
+    trans_direct_table_value: { ko: '425,000원', en: 'KRW 425,000' },
+    trans_ops_table_value: { ko: '50,000원', en: 'KRW 50,000' },
+    trans_edu_table_value: { ko: '25,000원', en: 'KRW 25,000' },
+
     trans_fin_principles: { ko: '재정 원칙', en: 'Financial Principles' },
     trans_fin_principles_desc: { ko: '레모네이드 포 올은 투명한 재정 운영을 최우선 가치로 삼고 있습니다. 모든 후원금과 물품의 입금 및 지출 내역을 정기적으로 공개합니다.', en: 'Lemonade For All treats transparent financial management as a core value. We regularly disclose the receipt and use of donations and goods.' },
     trans_report_period: { ko: '보고 주기', en: 'Reporting Schedule' },
@@ -110,6 +132,15 @@ document.addEventListener('DOMContentLoaded', () => {
     trans_recent_activities: { ko: '최근 활동', en: 'Recent Activities' },
     trans_partner: { ko: '협력 단체', en: 'Partner Organization' },
     trans_partner_desc: { ko: '태화복지재단과의 공식 협력을 통해 모든 물품이 안전하게 캄보디아 현지에 전달되며, 그 과정을 사진과 보고서로 기록합니다.', en: 'Through official cooperation with Taehwa Welfare Foundation, all items are delivered safely to Cambodia and documented with photos and reports.' },
+
+    trans_activity_1: {
+      ko: '캄보디아 프놈펜 지역 고아원에 의류 및 보건 물품 기부',
+      en: 'Donated clothing and health supplies to an orphanage in Phnom Penh, Cambodia'
+    },
+    trans_activity_2: {
+      ko: 'Lemonade For All 공식 설립',
+      en: 'Lemonade For All officially founded'
+    },
 
     news_title: { ko: '활동 소식', en: 'News' },
     news_sub: { ko: '레모네이드 포 올의 최근 소식과 활동 내용을 확인하세요', en: 'See the latest updates and activities from Lemonade For All' },
