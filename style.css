@@ -27,6 +27,7 @@ header {
   display: flex;
     min-height: 100px;  align-items: center;
   justify-content: space-between;
+  overflow: visible;
 }
 
 .logo {
@@ -38,7 +39,7 @@ header {
 }
 
 .logo-img {
-    height: 60px; width: auto;
+      height: 90px; width: auto;
   display: block;
 }
 
