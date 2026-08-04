@@ -25,6 +25,7 @@ header {
   border-bottom: 1px solid #E5E7EB;
         padding: 0.1rem 5%;
   display: flex;
+  min-height: 160px;
   align-items: center;
   justify-content: space-between;
 }
