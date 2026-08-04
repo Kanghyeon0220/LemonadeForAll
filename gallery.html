@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="gallery_doc">Lemonade For All | 갤러리</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="gallery.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">LEMONADE FOR ALL</a>
+    <nav>
+      <ul>
+        <li><a href="about.html" data-i18n="navAbout">단체 소개</a></li>
+        <li><a href="projects.html" data-i18n="navProjects">프로젝트</a></li>
+        <li><a href="gallery.html" data-i18n="navGallery">갤러리</a></li>
+        <li><a href="transparency.html" data-i18n="navTrans">투명성</a></li>
+        <li><a href="news.html" data-i18n="navNews">활동 소식</a></li>
+        <li><a href="donate.html" class="btn-donate" data-i18n="navDonate">후원하기</a></li>
+      </ul>
+    </nav>
+    <button id="langBtn" class="lang-btn">ENG</button>
+    <button class="hamburger" id="hamburger">☰</button>
+  </header>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="about.html" data-i18n="navAbout">단체 소개</a>
+    <a href="projects.html" data-i18n="navProjects">프로젝트</a>
+    <a href="gallery.html" data-i18n="navGallery">갤러리</a>
+    <a href="transparency.html" data-i18n="navTrans">투명성</a>
+    <a href="news.html" data-i18n="navNews">활동 소식</a>
+    <a href="donate.html" data-i18n="navDonate">후원하기</a>
+  </div>
+
+  <section id="gallery-hero">
+    <span class="hero-tag" data-i18n="galleryTag">우리들의 순간</span>
+    <h1 data-i18n="galleryTitle">갤러리</h1>
+    <p data-i18n="galleryDesc">레모네이드 포 올 팀원들이 직접 담은 활동 현장의 순간들입니다.</p>
+  </section>
+
+  <section id="gallery-filter">
+    <button class="filter-btn active" data-filter="all" data-i18n="filterAll">전체</button>
+    <button class="filter-btn" data-filter="cambodia" data-i18n="filterCambodia">캄보디아</button>
+    <button class="filter-btn" data-filter="campaign" data-i18n="filterCampaign">캠페인</button>
+    <button class="filter-btn" data-filter="team" data-i18n="filterTeam">팀 활동</button>
+  </section>
+
+  <section id="gallery-grid" class="gallery-grid">
+    <figure class="gallery-item" data-category="cambodia">
+      <img src="images/gallery/cambodia-01.jpg" alt="캄보디아 물품 전달" loading="lazy">
+      <figcaption>캄보디아 물품 전달 · 2026.03</figcaption>
+    </figure>
+    <figure class="gallery-item" data-category="campaign">
+      <img src="images/gallery/campaign-01.jpg" alt="기부 인식 캠페인" loading="lazy">
+      <figcaption>기부 인식 캠페인 · 2026.02</figcaption>
+    </figure>
+    <figure class="gallery-item" data-category="team">
+      <img src="images/gallery/team-01.jpg" alt="팀 회의" loading="lazy">
+      <figcaption>팀 회의 · 2026.01</figcaption>
+    </figure>
+  </section>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">&times;</button>
+    <button class="lightbox-prev" id="lightboxPrev">&#8249;</button>
+    <img src="" alt="" id="lightboxImg">
+    <button class="lightbox-next" id="lightboxNext">&#8250;</button>
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+
+  <footer>
+    <a href="index.html" class="logo">LEMONADE FOR ALL</a>
+    <p data-i18n="footerTag">청소년이 만드는 투명한 나눔</p>
+    <p>lemonadeforall@gmail.com</p>
+    <nav>
+      <a href="about.html" data-i18n="navAbout">단체 소개</a>
+      <a href="projects.html" data-i18n="navProjects">프로젝트</a>
+      <a href="gallery.html" data-i18n="navGallery">갤러리</a>
+      <a href="transparency.html" data-i18n="navTrans">투명성</a>
+      <a href="news.html" data-i18n="navNews">활동 소식</a>
+      <a href="donate.html" data-i18n="navDonate">후원하기</a>
+    </nav>
+    <p class="copyright">© 2026 Lemonade For All. All rights reserved.</p>
+  </footer>
+
+  <script src="lang.js"></script>
+  <script src="gallery.js"></script>
+</body>
+</html>
