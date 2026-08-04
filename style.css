@@ -25,7 +25,7 @@ header {
   border-bottom: 1px solid #E5E7EB;
         padding: 0.1rem 5%;
   display: flex;
-  min-height: 160px;
+  min-height: 100px;
   align-items: center;
   justify-content: space-between;
 }
@@ -39,7 +39,7 @@ header {
 }
 
 .logo-img {
-  height: 150px;
+  height: 90px;
   width: auto;
   display: block;
 }
@@ -61,7 +61,7 @@ nav a {
   text-decoration: none;
   color: var(--gray);
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 1.15rem;
   transition: color 0.2s;
 }
 
@@ -88,7 +88,7 @@ nav a:hover { color: var(--dark); }
   border-radius: 6px;
   font-weight: 700;
   cursor: pointer;
-  font-size: 0.85rem;
+  font-size: 1rem;
   transition: all 0.2s;
 }
 
