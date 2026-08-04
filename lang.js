@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     navAbout: { ko: '단체 소개', en: 'About Us' },
     navProjects: { ko: '프로젝트', en: 'Projects' },
     navTrans: { ko: '투명성', en: 'Transparency' },
+          navGallery: { ko: '갤러리', en: 'Gallery' },
     navNews: { ko: '활동 소식', en: 'News' },
     navDonate: { ko: '후원하기', en: 'Donate' },
     heroTag: { ko: '청소년 주도 비영리 단체', en: 'Youth-Led Non-Profit Organization' },
@@ -27,6 +28,14 @@ document.addEventListener('DOMContentLoaded', () => {
     ctaDonate: { ko: '후원하기', en: 'Donate' },
     footerDesc: { ko: '청소년이 만드는 투명한 나눔', en: 'Transparent giving led by youth' },
     statusActive: { ko: '활동 중', en: 'Active' },
+          gallery_doc: { ko: 'Lemonade For All | 갤러리', en: 'Lemonade For All | Gallery' },
+      galleryTag: { ko: '우리들의 순간', en: 'Our Moments' },
+      galleryTitle: { ko: '갤러리', en: 'Gallery' },
+      galleryDesc: { ko: '레모네이드 포 올 팀원들이 직접 담은 활동 현장의 순간들입니다.', en: 'Moments captured directly by our Lemonade For All team members.' },
+      filterAll: { ko: '전체', en: 'All' },
+      filterCambodia: { ko: '캄보디아', en: 'Cambodia' },
+      filterCampaign: { ko: '캠페인', en: 'Campaign' },
+      filterTeam: { ko: '팀 활동', en: 'Team' },
 
     // Project detail keys
     cambodia_page_title: { ko: 'Lemonade For Cambodia', en: 'Lemonade For Cambodia' },
