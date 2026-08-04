@@ -23,7 +23,7 @@ header {
   background: rgba(255,255,255,0.98);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid #E5E7EB;
-      padding: 0.3rem 5%;
+        padding: 0.1rem 5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,7 +38,7 @@ header {
 }
 
 .logo-img {
-  height: 100px;
+  height: 150px;
   width: auto;
   display: block;
 }
