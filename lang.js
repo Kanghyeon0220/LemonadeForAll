@@ -132,6 +132,10 @@ document.addEventListener('DOMContentLoaded', () => {
     news_doc: { ko: '활동 소식 | Lemonade For All', en: 'News | Lemonade For All' },
     cambodia_doc: { ko: 'Lemonade For Cambodia | Lemonade For All', en: 'Lemonade For Cambodia | Lemonade For All' },
     campaign_doc: { ko: '기부 인식 캠페인 | Lemonade For All', en: 'Donation Awareness Campaign | Lemonade For All' },
+  about_overview: { ko: 'Ⅰ. 단체 개요', en: 'I. Organization Overview' },
+  about_overview_name_label: { ko: '단체명', en: 'Organization Name' },
+  about_overview_founded_label: { ko: '설립일', en: 'Date Founded' },
+  about_overview_founded_date: { ko: '2025년 12월 23일', en: 'December 23, 2025' }
   };
 
   const getStoredLang = () => localStorage.getItem('siteLang') || 'ko';
