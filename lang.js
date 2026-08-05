@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
     support_item_4: { ko: '기본 생활 필수품 제공', en: 'Basic living essentials' },
     cambodia_partner: { ko: '파트너', en: 'Partners' },
     cambodia_impact: { ko: '기대 효과', en: 'Expected Impact' },
-    cambodia_partner_desc: { ko: '태화복지재단과의 공식 협력을 통해 모든 기부 물품이 캄보디아 현지에 안전하고 투명하게 전달됩니다. 전문 NGO와의 협력으로 신뢰할 수 있는 지원 체계를 구축했습니다.', en: 'Through official cooperation with Taehwa Welfare Foundation, all donated items are delivered safely and transparently to Cambodia. Collaboration with professional NGOs ensures a reliable support system.' },
+      cambodia_partner_desc: { ko: '태화복지재단 캄보디아 지부와의 공식 협력을 통해 모든 기부 물품이 캄보디아 현지에 안전하고 투명하게 전달됩니다. 전문 NGO와의 협력으로 신뢰할 수 있는 지원 체계를 구축했습니다.', en: 'Through official cooperation with the Cambodia branch of Taehwa Welfare Foundation, all donated items are delivered safely and transparently to Cambodia. Collaboration with professional NGOs ensures a reliable support system.' },
     cambodia_impact_desc: { ko: '취약계층 아동들의 기본적인 생활 환경을 개선하고, 건강하고 안전한 성장을 지원합니다. 장기적으로 교육 기회 확대와 자립 기반 마련에 기여하고자 합니다.', en: 'Improve basic living conditions for vulnerable children, support healthy and safe growth, and contribute to expanded educational opportunities and self-reliance in the long term.' },
     donate_project_btn: { ko: '이 프로젝트 후원하기', en: 'Support this project' },
 
@@ -93,12 +93,12 @@ document.addEventListener('DOMContentLoaded', () => {
     about_vision: { ko: '비전', en: 'Vision' },
     about_vision_desc: { ko: '투명하고 책임 있는 기부 문화를 청소년이 직접 만들어갑니다. 모든 기부금과 물품의 흐름을 투명하게 공개하여 후원자들이 신뢰할 수 있는 단체를 구축합니다.', en: 'Youth lead a transparent and responsible donation culture by openly publishing all donation and item flows to build donor trust.' },
     about_values: { ko: '핵심 가치', en: 'Core Values' },
-    about_values_desc: { ko: '태화복지재단과의 협력을 통해 신뢰 있는 나눔을 실천합니다. 전문 단체와의 파트너십을 통해 기부금이 효과적으로 사용될 수 있도록 합니다.', en: 'Act with trusted partners like Taehwa Welfare Foundation to ensure donations are used effectively.' },
+          about_values_desc: { ko: '태화복지재단 캄보디아 지부와의 협력을 통해 신뢰 있는 나눔을 실천합니다. 전문 단체와의 파트너십을 통해 기부금이 효과적으로 사용될 수 있도록 합니다.', en: 'Act with trusted partners like the Cambodia branch of Taehwa Welfare Foundation to ensure donations are used effectively.' },
 
     // Projects page
     projects_title: { ko: '프로젝트', en: 'Projects' },
     projects_sub: { ko: '레모네이드 포 올이 진행하는 다양한 프로젝트를 소개합니다', en: 'Explore the various projects run by Lemonade For All' },
-    projects_cambodia_desc: { ko: '캄보디아 취약계층 아동·청소년 가정에 의류, 보건 물품 등 생활 필수품을 지원합니다. 태화복지재단과 협력하여 현지에 직접 전달합니다.', en: 'We provide essential items such as clothing and health supplies to vulnerable children and youth households in Cambodia, delivered in cooperation with Taehwa Welfare Foundation.' },
+      projects_cambodia_desc: { ko: '캄보디아 취약계층 아동·청소년 가정에 의류, 보건 물품 등 생활 필수품을 지원합니다. 태화복지재단 캄보디아 지부와 협력하여 현지에 직접 전달합니다.', en: 'We provide essential items such as clothing and health supplies to vulnerable children and youth households in Cambodia, delivered in cooperation with the Cambodia branch of Taehwa Welfare Foundation.' },
     projects_campaign_desc: { ko: '학교 및 지역사회에서 공익 활동 교육과 기부 참여 캠페인을 진행합니다. 국제사회 현안에 대한 인식을 높입니다.', en: 'Conduct public service education and donation participation campaigns in schools and communities to raise awareness of global issues.' },
 
     // Transparency page
@@ -112,14 +112,14 @@ document.addEventListener('DOMContentLoaded', () => {
     trans_report_period: { ko: '보고 주기', en: 'Reporting Period' },
     trans_report_period_desc: { ko: '매 분기마다 재정 보고서를 작성하여 웹사이트에 공개하며, 모든 후원자에게 이메일로 전달합니다. 주요 프로젝트 진행 상황과 기부금 사용 내역을 상세히 안내해드립니다.', en: 'We publish quarterly financial reports on the website and send them to donors by email, detailing project progress and donation usage.' },
     trans_partner: { ko: '파트너 협력', en: 'Partner Collaboration' },
-    trans_partner_desc: { ko: '태화복지재단과의 공식 협력을 통해 모든 물품이 안전하게 캄보디아 현지에 전달되며, 그 과정을 사진과 보고서로 기록합니다.', en: 'Through official cooperation with Taehwa Welfare Foundation, all items are delivered safely to Cambodia and documented with photos and reports.' },
+      trans_partner_desc: { ko: '태화복지재단 캄보디아 지부와의 공식 협력을 통해 모든 물품이 안전하게 캄보디아 현지에 전달되며, 그 과정을 사진과 보고서로 기록합니다.', en: 'Through official cooperation with the Cambodia branch of Taehwa Welfare Foundation, all items are delivered safely to Cambodia and documented with photos and reports.' },
 
     // News page
     news_title: { ko: '활동 소식', en: 'News' },
     news_sub: { ko: '레모네이드 포 올의 최근 소식과 활동 내용을 확인하세요', en: 'Check out the latest news and activities from Lemonade For All' },
     news1_title: { ko: '캄보디아 1차 물품 지원 완료', en: 'First round of supplies delivered to Cambodia' },
-    news1_desc: { ko: '태화복지재단과 협력하여 캄보디아 현지 가정에 의류 및 보건 물품을 성공적으로 전달했습니다. 취약계층 아동 50명이 지원을 받았습니다.', en: 'In cooperation with Taehwa Welfare Foundation, clothing and health supplies were successfully delivered to families in Cambodia, supporting 50 vulnerable children.' },
-    news2_title: { ko: '학교 기부 캠페인 진행', en: 'School donation campaign held' },
+      news1_desc: { ko: '캄보디아 반띠민쩨이(Banteay Meanchey) 도시의 주정부 운영 고아원 \'Place of Rescue\'에 물품을 전달했습니다. 이곳에는 캄보디아-태국 국경분쟁으로 고아가 된 12명의 아이들을 포함해 총 113명의 고아들이 지내고 있습니다. 태화복지재단 캄보디아 지부와 협력하여 현지 아이들에게 의류 및 보건 물품을 성공적으로 전달했습니다.', en: 'We delivered supplies to Place of Rescue, a government-operated orphanage in Banteay Meanchey, Cambodia. The orphanage is home to 113 children, including 12 who became orphans due to the Cambodia-Thailand border conflict. In cooperation with the Cambodia branch of Taehwa Welfare Foundation, we successfully delivered clothing and health supplies to the children.' },
+      news1_desc: { ko: '캄보디아 반따민쐳이(Banteay Meanchey) 도시의 주정부 운영 고아원 'Place of Rescue'에 물품을 전달했습니다. 이곳에는 캄보디아-태국 국경분쟁으로 고아가 된 12명의 아이들을 포함해 총 113명의 고아들이 지내고 있습니다. 태화복지재단 캄보디아 지부와 협력하여 현지 아이들에게 의류 및 보건 물품을 성공적으로 전달했습니다.', en: 'We delivered supplies to Place of Rescue, a government-operated orphanage in Banteay Meanchey, Cambodia. The orphanage is home to 113 children, including 12 who became orphans due to the Cambodia-Thailand border conflict. In cooperation with the Cambodia branch of Taehwa Welfare Foundation, we successfully delivered clothing and health supplies to the children.' },
     news2_desc: { ko: '포항 지역 학교에서 공익 활동 교육 캠페인을 진행하며 청소년 나눔 문화 확산에 기여했습니다. 200여 명의 학생들이 참여했습니다.', en: 'A public service education campaign was held at a Pohang school, contributing to the spread of youth giving culture with about 200 students participating.' },
     news3_title: { ko: '레모네이드 포 올 공식 창립', en: 'Lemonade For All officially founded' },
     news3_desc: { ko: '청소년 주도의 비영리 단체 레모네이드 포 올이 공식 창립되었습니다. 함께해주셔서 감사합니다.', en: 'The youth-led nonprofit Lemonade For All has been officially founded. Thank you for joining us.' },
